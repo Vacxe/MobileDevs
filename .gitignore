@@ -24,3 +24,9 @@ myapp/.idea/uiDesigner.xml
 myapp/.idea/vcs.xml
 
 myapp/.idea/workspace.xml
+
+myapp/gen
+
+myapp/bin
+
+myapp/out
