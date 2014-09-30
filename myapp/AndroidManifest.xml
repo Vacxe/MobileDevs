@@ -9,8 +9,14 @@
         <activity android:name=".MainActivity"/>
         <activity android:name=".lesson1.ButtonActions"/>
         <activity android:name=".lesson1.SetLabelActivity"/>
-        <activity android:name=".lesson2.Lesson2LayoutSampleActivity"/>
+        <activity android:name=".lesson2.Lesson2LayoutSampleActivity">
+
+        </activity>
         <activity android:name=".lesson2.Lesson2LogActivity">
+
+        </activity>
+
+        <activity android:name=".lesson3.ListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>

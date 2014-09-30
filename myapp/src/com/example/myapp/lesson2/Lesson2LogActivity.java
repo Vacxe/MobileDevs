@@ -3,16 +3,15 @@ package com.example.myapp.lesson2;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.Window;
+import android.view.*;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 import com.example.myapp.R;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.lang.annotation.Annotation;
 
@@ -26,6 +25,16 @@ public class Lesson2LogActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.log_activity);
+
+        LinearLayout mybuttonLayout = (LinearLayout)findViewById(R.id.button_layout);
+
+        for(int i = 0;i<mybuttonLayout.getChildCount(); i++ ){
+            View button =  mybuttonLayout.getChildAt(i);
+            if (button instanceof Button){
+
+            }
+        }
+
         final LinearLayout buttonLayout = (LinearLayout) findViewById(R.id.button_layout);
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,6 +44,7 @@ public class Lesson2LogActivity extends Activity {
                 buttonLayout.addView(button);
             }
         });
+
 
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,6 +86,7 @@ public class Lesson2LogActivity extends Activity {
         menu.add("MENU 3");
         menu.add("MENU 4");
         getMenuInflater().inflate(R.menu.menu, menu);
+
         return super.onCreateOptionsMenu(menu);
     }
 
