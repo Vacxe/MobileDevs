@@ -86,6 +86,12 @@ public class Lesson2LogActivity extends Activity {
         menu.add("MENU 3");
         menu.add("MENU 4");
         getMenuInflater().inflate(R.menu.menu, menu);
+        Object object = new Object();
+
+        String s1 = "abs";
+        String s2 = "abs";
+        s1.equals(s2);
+
 
         return super.onCreateOptionsMenu(menu);
     }
