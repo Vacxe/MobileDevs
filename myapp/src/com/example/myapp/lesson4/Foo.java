@@ -32,8 +32,6 @@ public class Foo {
         if (this.b != ((Foo) o).b)
             return false;
         return true;
-
-
     }
 
     @Override
