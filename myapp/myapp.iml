@@ -15,7 +15,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="universal-image-loader-1.9.3" level="application" />
     <orderEntry type="library" name="android-support-v4" level="application" />
-    <orderEntry type="module" module-name="AndroidAxeLib_v2" />
+    <orderEntry type="module" module-name="AxeSupportLib" />
   </component>
 </module>
 

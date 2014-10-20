@@ -57,10 +57,7 @@ public class WeatherService extends Service {
 
             }
 
-            @Override
-            public JSONObject getCalass() {
-                return null;
-            }
+
 
         });
         dataFetcher.execute();

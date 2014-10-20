@@ -23,7 +23,10 @@
 
         </activity>
 
-        <activity android:name=".lesson5.Lesson5Activity">
+        <activity android:name=".lesson5.Lesson5Activity"/>
+
+
+        <activity android:name=".lesson6.WeaterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
